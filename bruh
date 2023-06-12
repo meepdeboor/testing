@@ -3,4 +3,5 @@ import numpy as np
 
 bruh = pd.DataFrame(columns = ['Hello','Bruh','What'])
 bruh.Hello = np.arange(1,100,10)
+bruh.Bruh = bruh.Hello
 print(bruh)
